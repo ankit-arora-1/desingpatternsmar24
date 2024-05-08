@@ -1,5 +1,7 @@
 package prototype;
 
+import java.util.concurrent.atomic.AtomicLongArray;
+
 public class Student implements Prototype<Student> {
     private String name;
     private int age;
